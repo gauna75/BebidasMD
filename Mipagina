@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi primera página web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+    }
+    .boton {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #fff;
+      color: #0077ff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .boton:hover {
+      background: #0077ff;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Hola, mundo! 🌍</h1>
+  <p>Esta es mi primera página web subida con <b>GitHub Pages</b>.</p>
+  <a href="https://github.com" class="boton" target="_blank">Visita GitHub</a>
+</body>
+</html>
